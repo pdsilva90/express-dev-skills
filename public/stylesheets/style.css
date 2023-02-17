@@ -1,8 +1,33 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /* font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; */
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  justify-content: center;
 }
 
 a {
   color: #00B7FF;
+}
+
+h1 {
+  justify-content: center;
+  align-items: center;
+  color:blueviolet;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.delete-form {
+  display: inline-block;
+  margin-right: 10px;
+}
+	
+.delete-form button {
+  color: blueviolet;
+  background-color: black;
+  border-radius: 5px;
+
+}
+	
+li {
+  list-style: none;
 }
